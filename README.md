@@ -12,7 +12,7 @@ The EV Charging API is a .NET 7 Web API project. The purpose of this project is 
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/ev-charging-scheduler-api.git
+git clone https://github.com/arskrkmz/EVCharging.git
 2. Navigate to the project directory:
 cd ev-charging
 
