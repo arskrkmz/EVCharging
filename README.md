@@ -12,20 +12,20 @@ The EV Charging API is a .NET 7 Web API project. The purpose of this project is 
 ## Installation
 
 1. Clone the repository:
-*git clone https://github.com/arskrkmz/EVCharging.git*
+**git clone https://github.com/arskrkmz/EVCharging.git**
 2. Navigate to the project directory:
-_cd ev-charging_
+**cd ev-charging**
 
 3. Build the Docker container:
-*docker build -t ev-charging .*
+**docker build -t ev-charging .**
 
 ## Usage
 
 1. Run the Docker container:
-*docker run -d -p 8080:80 ev-charging*
+**docker run -d -p 8080:80 ev-charging**
 
 2. Open your web browser and navigate to the Swagger UI documentation:
-*http://localhost:8080/swagger*
+**http://localhost:8080/swagger**
 
 3. Use the Swagger UI to explore the available endpoints and their request/response models. You can test the API directly from the Swagger UI.
 
