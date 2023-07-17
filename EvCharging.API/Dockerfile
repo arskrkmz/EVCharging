@@ -8,6 +8,8 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 COPY ["EvCharging.API/EvCharging.API.csproj", "EvCharging.API/"]
+COPY ["EvCharging.App/EvCharging.App.csproj", "EvCharging.App/"]
+COPY ["EvCharging.Core/EvCharging.Core.csproj", "EvCharging.Core/"]
 RUN dotnet restore "EvCharging.API/EvCharging.API.csproj"
 COPY . .
 WORKDIR "/src/EvCharging.API"
