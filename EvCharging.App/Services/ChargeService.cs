@@ -36,7 +36,7 @@ public class ChargeService : IChargeService
         DateTime startTime = model.StartingTime;
         DateTime leavingTime = model.StartingTime.Add(model.UserSettings.LeavingTime);
 
-        // Calculating charging needs (Direct and Resired) 
+        // Calculating charging needs ( Direct and Resired ) 
         var chargeTime = _repository.GetCharge(
                                                 model.CarData.BatteryCapacity, 
                                                 model.UserSettings.DirectChargingPercentage,
