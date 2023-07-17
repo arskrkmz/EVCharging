@@ -14,7 +14,7 @@ The EV Charging API is a .NET 7 Web API project. The purpose of this project is 
 1. Clone the repository:
 **git clone https://github.com/arskrkmz/EVCharging.git**
 2. Navigate to the project directory:
-**cd EVCharging**
+**cd EVCharging/EVCharging.API**
 
 3. Build the Docker container:
 **docker build -t ev-charging .**
